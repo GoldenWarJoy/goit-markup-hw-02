@@ -1,9 +1,25 @@
+:root {
+  --primary-text-color: #212121;
+  --primary-color: #2196f3;
+  --main-div-1-bg-color: #2f303a;
+  --main-div-1-color: #fff;
+  --studio-button-text-color: #fff;
+  --main-div-our-team-background-color: #f5f4fa;
+  --our-team-member-background-color: #fff;
+  --our-team-member-position-text-color: #757575;
+  --footer-background: #2f303a;
+  --footer-logo-color: #fff;
+  --footer-adress-color: #fff;
+  --portfolio-buttons-background-color: #f5f4fa;
+  --portfolio-buttons-text-hover-color: #fff;
+}
+
 body {
   font-family: "Roboto", Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 400;
   width: 1600px;
-  color: #212121;
+  color: var(--primary-text-color);
 }
 
 .header-style {
@@ -23,7 +39,7 @@ body {
 }
 
 .header-style > nav > ul > li > a:hover {
-  color: #2196f3;
+  color: var(--primary-color);
 }
 
 .logo {
@@ -34,7 +50,7 @@ body {
 
   letter-spacing: 0.03em;
 
-  color: #2196f3;
+  color: var(--primary-color);
   margin-left: 215px;
   line-height: 3.076923076923077;
 }
@@ -43,7 +59,7 @@ body {
 }
 
 .logo:hover {
-  color: #2196f3;
+  color: var(--primary-color);
 }
 
 .logo-black {
@@ -66,13 +82,13 @@ body {
   margin-left: 353px;
 }
 .mail:hover {
-  color: #2196f3;
+  color: var(--primary-color);
 }
 .phone-number {
   margin-left: 50px;
 }
 .phone-number:hover {
-  color: #2196f3;
+  color: var(--primary-color);
 }
 
 .main-div-1 {
@@ -85,7 +101,7 @@ body {
   left: 0px;
   top: 80px;
 
-  background: #2f303a;
+  background: var(--main-div-1-bg-color);
 }
 
 .main-div-1 > h1 {
@@ -99,13 +115,13 @@ body {
   letter-spacing: 0.06em;
   text-transform: uppercase;
 
-  color: #ffffff;
+  color: var(--main-div-1-color);
 }
 
 .main-div-1 > button {
   width: 200px;
 
-  background: #2196f3;
+  background: var(--primary-color);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
 }
@@ -121,7 +137,7 @@ body {
   align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
-  color: #ffffff;
+  color: var(--studio-button-text-color);
 }
 
 .our-advantages {
@@ -156,7 +172,7 @@ body {
 }
 
 .main-div-3-our-team {
-  background: #f5f4fa;
+  background: var(--main-div-our-team-background-color);
   width: 1600px;
   margin-top: 94px;
   align-items: center;
@@ -183,7 +199,7 @@ body {
   align-items: center;
   display: flex;
   flex-direction: column;
-  background: #ffffff;
+  background: var(--our-team-member-background-color);
   margin-left: 15px;
   margin-right: 15px;
 }
@@ -208,12 +224,12 @@ body {
   /* identical to box height */
   text-align: center;
   letter-spacing: 0.03em;
-  color: #757575;
+  color: var(--our-team-member-position-text-color);
 }
 
 .footer-style {
   height: 252px;
-  background: #2f303a;
+  background: var(--footer-background);
   width: 1600px;
   display: flex;
   flex-direction: column;
@@ -229,10 +245,10 @@ body {
   /* identical to box height */
 
   letter-spacing: 0.03em;
-  color: #ffffff;
+  color: var(--footer-logo-color);
 }
 .footer-logo-blueweb {
-  color: #2196f3;
+  color: var(--primary-color);
 }
 .footer-adress {
   margin-top: 30px;
@@ -244,11 +260,11 @@ body {
 
   letter-spacing: 0.03em;
 
-  color: #ffffff;
+  color: var(--footer-adress-color);
 }
 
 .footer-adress:hover {
-  color: #2196f3;
+  color: var(--primary-color);
 }
 
 .footer-mail {
@@ -265,7 +281,7 @@ body {
 }
 
 .footer-mail:hover {
-  color: #2196f3;
+  color: var(--primary-color);
 }
 
 .footer-telephone {
@@ -282,7 +298,7 @@ body {
   color: rgba(255, 255, 255, 0.6);
 }
 .footer-telephone:hover {
-  color: #2196f3;
+  color: var(--primary-color);
 }
 
 .portfolio-buttons {
@@ -293,15 +309,15 @@ body {
 }
 
 .portfolio-buttons > li {
-  background: #f5f4fa;
+  background: var(--portfolio-buttons-background-color);
   border-radius: 4px;
   margin-left: 4px;
   margin-right: 4px;
 }
 
 .portfolio-buttons > li > button:hover {
-  background: #2196f3;
-  color: #ffffff;
+  background: var(--primary-color);
+  color: var(--portfolio-buttons-text-hover-color);
 }
 
 .portfolio-buttons > li > button {
